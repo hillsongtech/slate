@@ -452,6 +452,11 @@ html, body {
     max-width: 100%;
   }
 
+  img[alt="module"] { 
+    max-width:  325px; 
+    display: block;
+  }
+
   code {
     background-color: rgba(0,0,0,0.05);
     padding: 3px;
