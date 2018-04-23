@@ -254,6 +254,9 @@
                   <li>
                     <a href="#video" class="toc-h2 toc-link" data-title="video">Video</a>
                   </li>
+                  <li>
+                    <a href="#webview" class="toc-h2 toc-link" data-title="webview">Webview</a>
+                  </li>
               </ul>
           </li>
       </div>
@@ -596,6 +599,69 @@ Remember — a happy kitten is an authenticated kitten!
 </tbody></table>
 
 <p>For this example we are providing an video that takes up the full container.</p>
+<h2 id='webview'>Webview</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"webview"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"source_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://github.com"</span><span class="p">,</span><span class="w"> 
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"webView"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Int</td>
+<td>Id related to the module.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>String</td>
+<td>The type of module.</td>
+</tr>
+<tr>
+<td>source_url</td>
+<td>String</td>
+<td>The url of the webpage you would like to display</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>Object</td>
+<td>The theme of the webview referenced below</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/webview.png" alt="module" /></p>
+<h3 id='theme-parameters'>Theme Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Associated Color Area</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>container</td>
+<td>null</td>
+</tr>
+<tr>
+<td>webview</td>
+<td>null</td>
+</tr>
+</tbody></table>
+
+<p>For this example we are providing a webview that takes up the full container.</p>
 
       </div>
       <div class="dark-box">
