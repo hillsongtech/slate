@@ -18,6 +18,7 @@ includes:
   - video
   - webview
   - label
+  - minibio
 
 search: true
 ---
