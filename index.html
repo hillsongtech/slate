@@ -257,6 +257,9 @@
                   <li>
                     <a href="#webview" class="toc-h2 toc-link" data-title="webview">Webview</a>
                   </li>
+                  <li>
+                    <a href="#label" class="toc-h2 toc-link" data-title="label">Label</a>
+                  </li>
               </ul>
           </li>
       </div>
@@ -662,6 +665,71 @@ Remember — a happy kitten is an authenticated kitten!
 </tbody></table>
 
 <p>For this example we are providing a webview that takes up the full container.</p>
+<h2 id='label'>Label</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"label"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Welcome to Hillsong Conference 2018!"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#F6F6F6"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"fontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"900"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#191A1A"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Int</td>
+<td>Id related to the module.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>String</td>
+<td>The type of module.</td>
+</tr>
+<tr>
+<td>content</td>
+<td>String</td>
+<td>The string you would like inside the label module. This can also be HTML</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>Object</td>
+<td>The theme of the button referenced below</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/label.png" alt="module" /></p>
+<h3 id='theme-parameters'>Theme Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Associated Color Area</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>container</td>
+<td>White</td>
+</tr>
+<tr>
+<td>text</td>
+<td>Black</td>
+</tr>
+</tbody></table>
 
       </div>
       <div class="dark-box">
