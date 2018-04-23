@@ -13,6 +13,9 @@ includes:
   - app
   - pages
   - modules
+  - button
+  - image
+  - video
 
 search: true
 ---
