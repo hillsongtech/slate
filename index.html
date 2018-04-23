@@ -248,6 +248,12 @@
                   <li>
                     <a href="#button" class="toc-h2 toc-link" data-title="button">Button</a>
                   </li>
+                  <li>
+                    <a href="#image" class="toc-h2 toc-link" data-title="image">Image</a>
+                  </li>
+                  <li>
+                    <a href="#video" class="toc-h2 toc-link" data-title="video">Video</a>
+                  </li>
               </ul>
           </li>
       </div>
@@ -353,7 +359,7 @@ Remember — a happy kitten is an authenticated kitten!
     </span><span class="s2">"links_to"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
     </span><span class="s2">"buttonType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"warning"</span><span class="p">,</span><span class="w">
     </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"buttonContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">
             </span><span class="s2">"alignItems"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="p">,</span><span class="w">
             </span><span class="s2">"justifyContent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="p">,</span><span class="w">
@@ -438,6 +444,158 @@ Remember — a happy kitten is an authenticated kitten!
 <td>Black</td>
 </tr>
 </tbody></table>
+<h2 id='image'>Image</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"image"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"source_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://cdn.gospelherald.com/data/images/full/19347/hillsong-let-hope-rise.jpg"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"justifyContent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"alignItems"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"image"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Int</td>
+<td>Id related to the module.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>String</td>
+<td>The type of module.</td>
+</tr>
+<tr>
+<td>source_url</td>
+<td>String</td>
+<td>Url to the image you would like to display</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>Object</td>
+<td>The theme of the image referenced below</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/image.png" alt="module" /></p>
+<h3 id='theme-parameters'>Theme Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Associated Color Area</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>container</td>
+<td>null</td>
+</tr>
+<tr>
+<td>image</td>
+<td>null</td>
+</tr>
+</tbody></table>
+
+<p>For this example we are providing an image that takes up the full container.</p>
+<h2 id='video'>Video</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"video"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"source_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://mirrors.standaloneinstaller.com/video-sample/jellyfish-25-mbps-hd-hevc.mp4"</span><span class="p">,</span><span class="w"> 
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">220</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"videoContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">220</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"justifyContent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"alignItems"</span><span class="p">:</span><span class="w"> </span><span class="s2">"center"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"video"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
+        </span><span class="s2">"playButton"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
+        </span><span class="s2">"videoTitleLabel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"white"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="mi">275</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"fontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"700"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Int</td>
+<td>Id related to the module.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>String</td>
+<td>The type of module.</td>
+</tr>
+<tr>
+<td>source_url</td>
+<td>String</td>
+<td>Url to the video you would like to show</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>Object</td>
+<td>The theme of the video referenced below</td>
+</tr>
+</tbody></table>
+
+<p><img src="images/video.png" alt="module" /></p>
+<h3 id='theme-parameters'>Theme Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Associated Color Area</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>container</td>
+<td>null</td>
+</tr>
+<tr>
+<td>videoContainer</td>
+<td>null</td>
+</tr>
+<tr>
+<td>video</td>
+<td>null</td>
+</tr>
+<tr>
+<td>playButton</td>
+<td>null</td>
+</tr>
+<tr>
+<td>videoTitleLabel</td>
+<td>yellow</td>
+</tr>
+</tbody></table>
+
+<p>For this example we are providing an video that takes up the full container.</p>
 
       </div>
       <div class="dark-box">
