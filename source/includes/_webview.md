@@ -1,5 +1,7 @@
 ## Webview
 
+![module](../images/webview.png)
+
 ```json
 {
 	"id": 1,
@@ -25,9 +27,6 @@ id | Int | Id related to the module.
 type | String | The type of module.
 source_url | String | The url of the webpage you would like to display
 theme | Object | The theme of the webview referenced below
-
-
-![module](../images/webview.png)
 
 ### Theme Parameters
 

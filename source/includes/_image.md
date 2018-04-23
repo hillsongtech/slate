@@ -1,5 +1,7 @@
 ## Image
 
+![module](../images/image.png)
+
 ```json
 {
 	"id": 3,
@@ -28,9 +30,6 @@ id | Int | Id related to the module.
 type | String | The type of module.
 source_url | String | Url to the image you would like to display
 theme | Object | The theme of the image referenced below
-
-
-![module](../images/image.png)
 
 ### Theme Parameters
 

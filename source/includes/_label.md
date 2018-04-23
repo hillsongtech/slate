@@ -1,5 +1,7 @@
 ## Label
 
+![module](../images/label.png)
+
 ```json
 {
 	"id": 5,
@@ -29,8 +31,6 @@ id | Int | Id related to the module.
 type | String | The type of module.
 content | String | The string you would like inside the label module. This can also be HTML
 theme | Object | The theme of the button referenced below
-
-![module](../images/label.png)
 
 ### Theme Parameters
 

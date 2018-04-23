@@ -19,6 +19,7 @@ includes:
   - webview
   - label
   - minibio
+  - newsfeed
 
 search: true
 ---

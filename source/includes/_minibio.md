@@ -1,5 +1,7 @@
 ## MiniBio
 
+![module](../images/minibio.png)
+
 ```json
 {
 	"id": 1,
@@ -85,8 +87,6 @@ paragraph | String | The paragraph description
 source_url | String | The url of the image you would like to display
 links_to | Int | The "page" you would like the read more button to link to
 theme | Object | The theme of the minibio referenced below
-
-![module](../images/minibio.png)
 
 ### Theme Parameters
 

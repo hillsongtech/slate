@@ -1,5 +1,7 @@
 ## Button
 
+![module](../images/button.png)
+
 ```json
 {
 	"id": 0,
@@ -44,9 +46,6 @@ title | String | The title you would like inside the button.
 links_to | Int | This is a unique page id. When clicking the button will route to this page.
 buttonType | String | "warning", "success", "light", "info", "warning", "danger", "dark"
 theme | Object | The theme of the button referenced below
-
-
-![module](../images/button.png)
 
 ### Theme Parameters
 

@@ -1,5 +1,7 @@
 ## Video
 
+![module](../images/video.png)
+
 ```json
 {
 	"id": 1,
@@ -36,9 +38,6 @@ id | Int | Id related to the module.
 type | String | The type of module.
 source_url | String | Url to the video you would like to show
 theme | Object | The theme of the video referenced below
-
-
-![module](../images/video.png)
 
 ### Theme Parameters
 
