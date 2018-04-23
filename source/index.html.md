@@ -17,6 +17,7 @@ includes:
   - image
   - video
   - webview
+  - label
 
 search: true
 ---
