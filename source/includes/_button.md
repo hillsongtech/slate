@@ -22,13 +22,15 @@
 			"height": 50,
 			"justifyContent": "center",
 			"alignSelf": "stretch",
-			"backgroundColor": "white",
+			"backgroundColor": "white", // Hillsong Theme
+			"backgroundColor": "#575964", // Default Theme
 			"borderRadius": 3,
 			"marginLeft": 40,
 			"marginRight": 40
 		},
 		"buttonText": {
-			"color": "black",
+			"color": "black", // Hillsong Theme
+			"color": "#D0D4DC", // Default Theme
 			"fontSize": 17,
 			"fontWeight": "900",
 			"alignSelf": "center"
