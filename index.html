@@ -458,6 +458,8 @@ Remember — a happy kitten is an authenticated kitten!
 <td>Black</td>
 </tr>
 </tbody></table>
+<h3 id='default-theme'>Default Theme</h3>
+<p><img src="images/defaultthemebutton.png" alt="module" /></p>
 <h2 id='image'>Image</h2>
 <p><img src="images/image.png" alt="module" /></p>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
@@ -542,7 +544,7 @@ Remember — a happy kitten is an authenticated kitten!
         </span><span class="s2">"video"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> 
         </span><span class="s2">"playButton"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
         </span><span class="s2">"videoTitleLabel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"white"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"white"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Default</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">Hillsong</span><span class="w"> </span><span class="err">Theme?</span><span class="w">
             </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span><span class="w">
             </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="mi">275</span><span class="p">,</span><span class="w">
             </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
@@ -621,9 +623,7 @@ Remember — a happy kitten is an authenticated kitten!
             </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
             </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="w">
         </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"webView"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-
-        </span><span class="p">}</span><span class="w">
+        </span><span class="s2">"webView"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Have</span><span class="w"> </span><span class="err">access</span><span class="w"> </span><span class="err">to</span><span class="p">,</span><span class="w"> </span><span class="err">but</span><span class="w"> </span><span class="err">nothing</span><span class="w"> </span><span class="err">needs</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">be</span><span class="w"> </span><span class="err">applied</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">it.</span><span class="w">
     </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
@@ -681,12 +681,14 @@ Remember — a happy kitten is an authenticated kitten!
     </span><span class="s2">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Welcome to Hillsong Conference 2018!"</span><span class="p">,</span><span class="w">
     </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#F6F6F6"</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> 
+            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#F6F6F6"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Hillsong</span><span class="w"> </span><span class="err">Theme</span><span class="w">
+            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#575964"</span><span class="w">  </span><span class="err">//</span><span class="w"> </span><span class="err">Default</span><span class="w"> </span><span class="err">Theme</span><span class="w">
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="s2">"fontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"900"</span><span class="p">,</span><span class="w">
-            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#191A1A"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#191A1A"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Hillsong</span><span class="w"> </span><span class="err">Theme</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#D0D4DC"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Default</span><span class="w"> </span><span class="err">Theme</span><span class="w">
             </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span><span class="w">
             </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
             </span><span class="s2">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
@@ -738,6 +740,8 @@ Remember — a happy kitten is an authenticated kitten!
 <td>Black</td>
 </tr>
 </tbody></table>
+<h3 id='default-theme'>Default Theme</h3>
+<p><img src="images/defaultthemelabel.png" alt="module" /></p>
 <h2 id='minibio'>MiniBio</h2>
 <p><img src="images/minibio.png" alt="module" /></p>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
