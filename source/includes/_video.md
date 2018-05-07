@@ -16,10 +16,21 @@
 			"justifyContent": "center",
 			"alignItems": "center"
 		},
-		"video": {}, 
-		"playButton": {},
+		"video": {
+			"position": "absolute",
+			"top": 0,
+			"left": 0,
+			"bottom": 0,
+			"right": 0
+		}, 
+		"playButton": {
+			"height": 40,
+			"width": 40,
+			"marginLeft": 20,
+			"marginTop": 20
+		},
 		"videoTitleLabel": {
-			"color": "white", // Default and Hillsong Theme?
+			"color": "white",
 			"fontSize": 24,
 			"width": 275,
 			"marginLeft": 20,
