@@ -14,7 +14,6 @@
 	"links_to": 3, 
 	"theme": {
 		"container": {
-			"backgroundColor": "transparent",
 			"paddingTop": 12
 		},
 		"containerContent": {
@@ -23,6 +22,8 @@
 		},
 		"topContainer": {
 			"justifyContent": "flex-start",
+			"flexDirection": "row",
+			"position": "relative",
 			"paddingBottom": 10
 		},
 		"thumbnailContainer": {
@@ -59,9 +60,11 @@
 		},
 		"readMoreContainer": {
 			"flex": 1,
-			"alignItems": "flex-end"
+			"alignItems": "flex-end",
+			"paddingTop": 10
 		},
 		"readMoreText": {
+			"color": "white",
 			"fontSize": 12,
 			"alignSelf": "flex-end",
 			"fontStyle": "italic",
@@ -70,6 +73,7 @@
 		"line": {
 			"paddingTop": 20,
     		"borderBottomWidth": 1,
+    		"borderBottomColor": "white"
 		}
 	}
 ```
@@ -107,3 +111,7 @@ readMoreContainer | null
 readMoreText | null
 line | White
 
+
+### Default Theme
+
+![module](../images/defaultthememinibio.png)

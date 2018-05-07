@@ -3,11 +3,48 @@
 ![module](../images/newsfeed.png)
 
 ```json
+
 {
 	"id": 0,
 	"type": "newsfeed",
 	"date": "1997-07-16T19:20+01:00", // Need to come back and implement
 	"share_content": "Share this with your friends", // Need to come back and implement
+	"theme": {
+		"container": {
+			"backgroundColor": "#F6F6F6",
+			"paddingBottom": 0,
+			"paddingTop": 20
+		},
+		"contentContainer": {
+			"flex": 2,
+			"justifyContent": "flex-start",
+			"flexDirection": "row"
+		},
+		"shareImageContainer": {
+			"flex": 1,
+			"marginLeft": 20
+		},
+		"shareImage": {
+			"height": 22,
+			"width": 16
+		},
+		"timeAgoLabelContainer": {
+			"flex": 1,
+			"marginRight": 20
+		},
+		"timeAgoLabel": {
+			"textAlign": "right",
+			"color": "#706F70",
+			"fontSize": 12
+		},
+		"line": {
+			"paddingTop": 20,
+			"borderBottomColor": "#DFDFDF",
+			"borderBottomWidth": 1,
+			"marginRight": 20,
+			"marginLeft": 20
+		}
+	},
 	"content": [
 		{
 			"id": 1,
@@ -25,12 +62,7 @@
 				"image": {
 					"height": 300,
 					"flex": 1,
-					"width": null,
-					"marginRight": 0,
-					"marginLeft": 0,
-					"marginTop": 0,
-					"marginBottom": 0,
-					"borderRadius": 0
+					"width": null
 				}
 			}
 		},
