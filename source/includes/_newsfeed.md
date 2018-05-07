@@ -11,38 +11,42 @@
 	"share_content": "Share this with your friends", // Need to come back and implement
 	"theme": {
 		"container": {
-			"backgroundColor": "#F6F6F6",
-			"paddingBottom": 0,
-			"paddingTop": 20
 		},
-		"contentContainer": {
-			"flex": 2,
-			"justifyContent": "flex-start",
-			"flexDirection": "row"
-		},
-		"shareImageContainer": {
-			"flex": 1,
-			"marginLeft": 20
-		},
-		"shareImage": {
-			"height": 22,
-			"width": 16
-		},
-		"timeAgoLabelContainer": {
-			"flex": 1,
-			"marginRight": 20
-		},
-		"timeAgoLabel": {
-			"textAlign": "right",
-			"color": "#706F70",
-			"fontSize": 12
-		},
-		"line": {
-			"paddingTop": 20,
-			"borderBottomColor": "#DFDFDF",
-			"borderBottomWidth": 1,
-			"marginRight": 20,
-			"marginLeft": 20
+		"sharing" : {
+			"container": {
+				"backgroundColor": "#F6F6F6",
+				"paddingBottom": 0,
+				"paddingTop": 20
+			},
+			"contentContainer": {
+				"flex": 2,
+				"justifyContent": "flex-start",
+				"flexDirection": "row"
+			},
+			"shareImageContainer": {
+				"flex": 1,
+				"marginLeft": 20
+			},
+			"shareImage": {
+				"height": 22,
+				"width": 16
+			},
+			"timeAgoLabelContainer": {
+				"flex": 1,
+				"marginRight": 20
+			},
+			"timeAgoLabel": {
+				"textAlign": "right",
+				"color": "#706F70",
+				"fontSize": 12
+			},
+			"line": {
+				"paddingTop": 20,
+				"borderBottomColor": "#DFDFDF",
+				"borderBottomWidth": 1,
+				"marginRight": 20,
+				"marginLeft": 20
+			}
 		}
 	},
 	"content": [
