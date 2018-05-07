@@ -9,12 +9,14 @@
 	"content": "Welcome to Hillsong Conference 2018!",
 	"theme": {
 		"container": {
-			"flex": 1,
-			"backgroundColor": "#F6F6F6"
+			"flex": 1, 
+			"backgroundColor": "#F6F6F6", // Hillsong Theme
+			"backgroundColor": "#575964"  // Default Theme
 		},
 		"text": {
 			"fontWeight": "900",
-			"color": "#191A1A",
+			"color": "#191A1A", // Hillsong Theme
+			"color": "#D0D4DC", // Default Theme
 			"fontSize": 24,
 			"marginLeft": 20,
 			"marginRight": 20
@@ -38,3 +40,6 @@ Parameter | Associated Color Area
 --------- | -----------
 container | White
 text | Black
+
+### Default Theme
+![module](../images/defaultthemelabel.png)

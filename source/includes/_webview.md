@@ -12,9 +12,7 @@
 			"flex": 1,
 			"height": 300
 		},
-		"webView": {
-
-		}
+		"webView": {} // Have access to, but nothing needs to be applied to it.
 	}
 }
 ```

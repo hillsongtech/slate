@@ -19,7 +19,7 @@
 		"video": {}, 
 		"playButton": {},
 		"videoTitleLabel": {
-			"color": "white",
+			"color": "white", // Default and Hillsong Theme?
 			"fontSize": 24,
 			"width": 275,
 			"marginLeft": 20,

@@ -56,3 +56,6 @@ Parameter | Associated Color Area
 buttonContainer | Blue
 button | White
 buttonText | Black
+
+### Default Theme
+![module](../images/defaultthemebutton.png)
