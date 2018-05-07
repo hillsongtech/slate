@@ -767,7 +767,6 @@ Remember — a happy kitten is an authenticated kitten!
     </span><span class="s2">"links_to"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> 
     </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"transparent"</span><span class="p">,</span><span class="w">
             </span><span class="s2">"paddingTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="w">
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"containerContent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -776,6 +775,8 @@ Remember — a happy kitten is an authenticated kitten!
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"topContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="s2">"justifyContent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"flex-start"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"flexDirection"</span><span class="p">:</span><span class="w"> </span><span class="s2">"row"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"position"</span><span class="p">:</span><span class="w"> </span><span class="s2">"relative"</span><span class="p">,</span><span class="w">
             </span><span class="s2">"paddingBottom"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"thumbnailContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -812,9 +813,11 @@ Remember — a happy kitten is an authenticated kitten!
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"readMoreContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-            </span><span class="s2">"alignItems"</span><span class="p">:</span><span class="w"> </span><span class="s2">"flex-end"</span><span class="w">
+            </span><span class="s2">"alignItems"</span><span class="p">:</span><span class="w"> </span><span class="s2">"flex-end"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"paddingTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
         </span><span class="p">},</span><span class="w">
         </span><span class="s2">"readMoreText"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"white"</span><span class="p">,</span><span class="w">
             </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
             </span><span class="s2">"alignSelf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"flex-end"</span><span class="p">,</span><span class="w">
             </span><span class="s2">"fontStyle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"italic"</span><span class="p">,</span><span class="w">
@@ -823,6 +826,7 @@ Remember — a happy kitten is an authenticated kitten!
         </span><span class="s2">"line"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="s2">"paddingTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
             </span><span class="s2">"borderBottomWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"borderBottomColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"white"</span><span class="w">
         </span><span class="p">}</span><span class="w">
     </span><span class="p">}</span><span class="w">
 </span></code></pre><h3 id='query-parameters'>Query Parameters</h3>
@@ -943,13 +947,52 @@ Remember — a happy kitten is an authenticated kitten!
 <td>White</td>
 </tr>
 </tbody></table>
+<h3 id='default-theme'>Default Theme</h3>
+<p><img src="images/defaultthememinibio.png" alt="module" /></p>
 <h2 id='newsfeed'>NewsFeed</h2>
 <p><img src="images/newsfeed.png" alt="module" /></p>
-<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+<pre class="highlight json tab-json"><code><span class="w">
+</span><span class="p">{</span><span class="w">
     </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
     </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"newsfeed"</span><span class="p">,</span><span class="w">
     </span><span class="s2">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1997-07-16T19:20+01:00"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Need</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">come</span><span class="w"> </span><span class="err">back</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">implement</span><span class="w">
     </span><span class="s2">"share_content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Share this with your friends"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Need</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">come</span><span class="w"> </span><span class="err">back</span><span class="w"> </span><span class="err">and</span><span class="w"> </span><span class="err">implement</span><span class="w">
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"container"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#F6F6F6"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"paddingBottom"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"paddingTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"contentContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"justifyContent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"flex-start"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"flexDirection"</span><span class="p">:</span><span class="w"> </span><span class="s2">"row"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"shareImageContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"shareImage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">22</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"timeAgoLabelContainer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"timeAgoLabel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"textAlign"</span><span class="p">:</span><span class="w"> </span><span class="s2">"right"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#706F70"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"line"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"paddingTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"borderBottomColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#DFDFDF"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"borderBottomWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w">
     </span><span class="s2">"content"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
         </span><span class="p">{</span><span class="w">
             </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
@@ -967,12 +1010,7 @@ Remember — a happy kitten is an authenticated kitten!
                 </span><span class="s2">"image"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                     </span><span class="s2">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">,</span><span class="w">
                     </span><span class="s2">"flex"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"marginTop"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"marginBottom"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"borderRadius"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+                    </span><span class="s2">"width"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
                 </span><span class="p">}</span><span class="w">
             </span><span class="p">}</span><span class="w">
         </span><span class="p">},</span><span class="w">
