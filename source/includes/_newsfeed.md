@@ -8,9 +8,9 @@
 	"id": 0,
 	"type": "newsfeed",
 	"date": "1997-07-16T19:20+01:00",
-	"share_message": "Share this with your friends",
-	"share_url": "https://google.com",
-	"share_title": "Hello World",
+	"shareMessage": "Share this with your friends",
+	"shareUrl": "https://google.com",
+	"shareTitle": "Hello World",
 	"theme": {
 		"container": {
 
