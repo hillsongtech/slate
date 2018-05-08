@@ -7,8 +7,10 @@
 {
 	"id": 0,
 	"type": "newsfeed",
-	"date": "1997-07-16T19:20+01:00", // Need to come back and implement
-	"share_content": "Share this with your friends", // Need to come back and implement
+	"date": "1997-07-16T19:20+01:00",
+	"share_message": "Share this with your friends",
+	"share_url": "https://google.com",
+	"share_title": "Hello World",
 	"theme": {
 		"container": {
 
