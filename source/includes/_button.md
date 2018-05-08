@@ -28,7 +28,7 @@
 			"marginLeft": 40,
 			"marginRight": 40
 		},
-		"buttonText": {
+		"text": {
 			"color": "black", // Hillsong Theme
 			"color": "#D0D4DC", // Default Theme
 			"fontSize": 17,
@@ -55,7 +55,7 @@ Parameter | Associated Color Area
 --------- | -----------
 buttonContainer | Blue
 button | White
-buttonText | Black
+text | Black
 
 ### Default Theme
 ![module](../images/defaultthemebutton.png)

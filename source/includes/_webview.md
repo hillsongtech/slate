@@ -5,8 +5,8 @@
 ```json
 {
 	"id": 1,
-	"type": "webview",
-	"source_url": "https://github.com", 
+	"type": "webView",
+	"source_url": "https://github.com",
 	"theme": {
 		"container": {
 			"flex": 1,

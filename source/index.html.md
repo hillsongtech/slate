@@ -16,9 +16,9 @@ includes:
   - button
   - image
   - video
-  - webview
+  - webView
   - label
-  - minibio
+  - bioMini
   - newsfeed
 
 search: true

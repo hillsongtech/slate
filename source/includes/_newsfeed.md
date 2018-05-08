@@ -11,42 +11,50 @@
 	"share_content": "Share this with your friends", // Need to come back and implement
 	"theme": {
 		"container": {
+
 		},
-		"sharing" : {
-			"container": {
-				"backgroundColor": "#F6F6F6",
-				"paddingBottom": 0,
-				"paddingTop": 20
-			},
-			"contentContainer": {
-				"flex": 2,
-				"justifyContent": "flex-start",
-				"flexDirection": "row"
-			},
-			"shareImageContainer": {
-				"flex": 1,
-				"marginLeft": 20
-			},
-			"shareImage": {
-				"height": 22,
-				"width": 16
-			},
-			"timeAgoLabelContainer": {
-				"flex": 1,
-				"marginRight": 20
-			},
-			"timeAgoLabel": {
-				"textAlign": "right",
-				"color": "#706F70",
-				"fontSize": 12
-			},
-			"line": {
-				"paddingTop": 20,
-				"borderBottomColor": "#DFDFDF",
-				"borderBottomWidth": 1,
-				"marginRight": 20,
-				"marginLeft": 20
-			}
+		"shareContainer": {
+			"backgroundColor": "#F6F6F6",
+			"paddingBottom": 0,
+			"paddingTop": 20
+		},
+		"shareContentContainer": {
+			"flex": 2,
+			"justifyContent": "flex-start",
+			"flexDirection": "row"
+		},
+		"shareImageContainer": {
+			"flex": 1,
+			"marginLeft": 20
+		},
+		"shareImage": {
+			"height": 22,
+			"width": 16
+		},
+		"timeAgoContainer": {
+			"flex": 1,
+			"marginRight": 20
+		},
+		"timeAgoLabel": {
+			"textAlign": "right",
+			"color": "#706F70",
+			"fontSize": 12
+		},
+		"separator": {
+			"paddingTop": 20,
+			"borderBottomColor": "#DFDFDF",
+			"borderBottomWidth": 1,
+			"marginRight": 20,
+			"marginLeft": 20
+		},
+		"image": {
+
+		},
+		"video": {
+
+		},
+		"text": {
+
 		}
 	},
 	"content": [
@@ -55,7 +63,7 @@
 			"type": "image",
 			"title": "",
 			"source_url": "http://www.latimes.com/resizer/EQ3qC0FZL73_8GGEwU9Frs5b2cI=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/KGLW5PUC65HMZK3LHRCZ45IMWY.jpg",
-			"links_to": null, 
+			"links_to": null,
 			"theme": {
 				"container": {
 					"flexDirection": "row",

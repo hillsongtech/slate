@@ -6,7 +6,7 @@
 {
 	"id": 1,
 	"type": "video",
-	"source_url": "http://mirrors.standaloneinstaller.com/video-sample/jellyfish-25-mbps-hd-hevc.mp4", 
+	"source_url": "http://mirrors.standaloneinstaller.com/video-sample/jellyfish-25-mbps-hd-hevc.mp4",
 	"theme": {
 		"container": {
 			"height": 220
@@ -22,14 +22,14 @@
 			"left": 0,
 			"bottom": 0,
 			"right": 0
-		}, 
+		},
 		"playButton": {
 			"height": 40,
 			"width": 40,
 			"marginLeft": 20,
 			"marginTop": 20
 		},
-		"videoTitleLabel": {
+		"title": {
 			"color": "white",
 			"fontSize": 24,
 			"width": 275,
@@ -58,6 +58,6 @@ container | null
 videoContainer | null
 video | null
 playButton | null
-videoTitleLabel | yellow
+title | yellow
 
 For this example we are providing an video that takes up the full container.
