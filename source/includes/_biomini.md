@@ -1,4 +1,4 @@
-## MiniBio
+## BioMini
 
 ![module](../images/minibio.png)
 
