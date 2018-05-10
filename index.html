@@ -230,7 +230,10 @@
             <a href="#app" class="toc-h1 toc-link" data-title="app">App</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-app-information" class="toc-h2 toc-link" data-title="get-all-app-information">Get all App Information</a>
+                    <a href="#app-config" class="toc-h2 toc-link" data-title="app-config">App Config</a>
+                  </li>
+                  <li>
+                    <a href="#app-layout" class="toc-h2 toc-link" data-title="app-layout">App Layout</a>
                   </li>
               </ul>
           </li>
@@ -303,41 +306,33 @@ curl <span class="s2">"api_endpoint_here"</span>
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
-<h1 id='app'>App</h1><h2 id='get-all-app-information'>Get all App Information</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+<h1 id='app'>App</h1><h2 id='app-config'>App Config</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
   </span><span class="s2">"appName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Example App"</span><span class="p">,</span><span class="w">
   </span><span class="s2">"appVersion"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"sideMenu"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
-  </span><span class="s2">"tabBar"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
-  </span><span class="s2">"mainTheme"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
-  </span><span class="s2">"pages"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+  </span><span class="s2">"iosBundleId"</span><span class="p">:</span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"androidApplicationId"</span><span class="p">:</span><span class="s2">""</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
-<p>This endpoint retrieves all of the app information.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/app/appid</code></p>
-<h3 id='query-parameters'>Query Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
-</tr>
-<tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
+<p>This endpoint retrieves all of the app information. 
+More used for the configuration and not displayed anywhere in the app.</p>
+<h2 id='app-layout'>App Layout</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"sideMenu"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"hasSideMenu"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"theme"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
+    </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"There Is More"</span><span class="p">,</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="s2">"pages"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Hello World"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"isInNavigation"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves all of the app layout information.
+Navigation is seen as the top most layer of the app. 
+So we need this information before we can display anything.</p>
 <h1 id='pages'>Pages</h1><h2 id='get-all-page-information'>Get all Page Information</h2><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
     </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
     </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"There Is More"</span><span class="p">,</span><span class="w">
