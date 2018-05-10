@@ -10,7 +10,8 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
-  - app
+  - appconfig
+  - applayout
   - pages
   - modules
   - button
